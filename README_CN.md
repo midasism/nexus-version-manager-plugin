@@ -1,8 +1,14 @@
 # Nexus Version Manager Plugin
 
-IntelliJ IDEA插件，用于管理私有Nexus仓库中的Maven版本。
+[![版本](https://img.shields.io/github/v/release/midasism/nexus-version-manager-plugin?style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/releases)
+[![构建](https://img.shields.io/github/actions/workflow/status/midasism/nexus-version-manager-plugin/build.yml?branch=main&style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/actions)
+[![许可证](https://img.shields.io/github/license/midasism/nexus-version-manager-plugin?style=flat-square)](LICENSE)
+[![下载量](https://img.shields.io/github/downloads/midasism/nexus-version-manager-plugin/total?style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/releases)
+[![Stars](https://img.shields.io/github/stars/midasism/nexus-version-manager-plugin?style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/stargazers)
 
 [English](README.md) | 中文
+
+IntelliJ IDEA插件，用于管理私有Nexus仓库中的Maven版本。
 
 ## 最新版本：v1.1.1 🎉
 
@@ -113,18 +119,18 @@ Settings > Tools > Nexus Version Manager
 
 ## 版本历史
 
-### v1.1.1 (2024-04-07)
+### v1.1.1 (2026-04-07)
 - ✅ 移除"仓库"列
 - ✅ 修复上传时间显示
 - ✅ 首次打开自动加载
 
-### v1.1.0 (2024-04-07)
+### v1.1.0 (2026-04-07)
 - ✅ 自动识别所有API模块
 - ✅ 版本过滤功能（全部/正式/快照）
 - ✅ 批量查询展示
 - ✅ 增强错误处理
 
-### v1.0.0 (2024-04-07)
+### v1.0.0 (2026-04-07)
 - 初始版本发布
 
 ## 开发
@@ -153,8 +159,9 @@ MIT License
 
 ## 支持
 
-- 邮箱：support@distinctclinic.com
-- 问题反馈：[GitHub Issues](https://github.com/yourusername/nexus-version-manager-plugin/issues)
+- 邮箱：gxy2825@gmail.com
+- 问题反馈：[GitHub Issues](https://github.com/midasism/nexus-version-manager-plugin/issues)
+- JetBrains Marketplace：即将上线...
 
 ## 致谢
 

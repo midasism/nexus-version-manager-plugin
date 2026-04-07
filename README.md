@@ -1,5 +1,11 @@
 # Nexus Version Manager Plugin
 
+[![Version](https://img.shields.io/github/v/release/midasism/nexus-version-manager-plugin?style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/midasism/nexus-version-manager-plugin/build.yml?branch=main&style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/actions)
+[![License](https://img.shields.io/github/license/midasism/nexus-version-manager-plugin?style=flat-square)](LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/midasism/nexus-version-manager-plugin/total?style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/releases)
+[![Stars](https://img.shields.io/github/stars/midasism/nexus-version-manager-plugin?style=flat-square)](https://github.com/midasism/nexus-version-manager-plugin/stargazers)
+
 [中文](README_CN.md) | English
 
 An IntelliJ IDEA plugin for managing Maven versions in private Nexus repositories.
@@ -145,18 +151,18 @@ nexus-version-manager-plugin/
 
 ## Version History
 
-### v1.1.1 (2024-04-07)
+### v1.1.1 (2026-04-07)
 - ✅ Remove "Repository" column
 - ✅ Fix upload time display
 - ✅ Auto-load data on first open
 
-### v1.1.0 (2024-04-07)
+### v1.1.0 (2026-04-07)
 - ✅ Auto-detect all API modules
 - ✅ Version filtering (All/Release/Snapshot)
 - ✅ Batch query and display
 - ✅ Enhanced error handling
 
-### v1.0.0 (2024-04-07)
+### v1.0.0 (2026-04-07)
 - Initial release
 
 ## Contributing
@@ -169,8 +175,9 @@ MIT License
 
 ## Support
 
-- Email: support@distinctclinic.com
-- Issues: [GitHub Issues](https://github.com/yourusername/nexus-version-manager-plugin/issues)
+- Email: gxy2825@gmail.com
+- Issues: [GitHub Issues](https://github.com/midasism/nexus-version-manager-plugin/issues)
+- Marketplace: Coming soon...
 
 ## Acknowledgments
 
