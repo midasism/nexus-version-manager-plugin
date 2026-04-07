@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>com.distinct.nexus-version-manager</id>
+    <name>Nexus Version Manager</name>
+    <vendor email="support@distinctclinic.com">Distinct Clinic</vendor>
+    
+    <description><![CDATA[
+    Maven版本管理插件，用于查询和管理私有Nexus仓库中的Maven包版本。
+    
+    主要功能：
+    <ul>
+      <li>查询Nexus仓库中的Maven包版本列表</li>
+      <li>按版本号倒序展示</li>
+      <li>区分快照版本和正式版本</li>
+      <li>支持多模块Maven项目</li>
+    </ul>
+    ]]></description>
+    
+    <idea-version since-build="231" until-build="263.*"/>
+    
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>org.jetbrains.idea.maven</depends>
+    
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Nexus Versions" 
+                    anchor="right" 
+                    icon="/icons/nexus.svg"
+                    factoryClass="com.distinct.nexus.ui.NexusVersionToolWindowFactory"/>
+        
+        <projectConfigurable instance="com.distinct.nexus.ui.NexusSettingsConfigurable"
+                           displayName="Nexus Version Manager"
+                           groupId="tools"/>
+        
+        <applicationService 
+            serviceImplementation="com.distinct.nexus.services.NexusApiService"/>
+        <applicationService 
+            serviceImplementation="com.distinct.nexus.services.NexusSettingsState"/>
+        <projectService 
+            serviceImplementation="com.distinct.nexus.services.ProjectInfoService"/>
+    </extensions>
+</idea-plugin>
